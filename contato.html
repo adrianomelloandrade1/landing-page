@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>contato</title>
+      <link rel="stylesheet" href="styles.css" />
+   </head>
+   <style>
+      body {
+      align-items: center;
+      text-align: center;
+      }
+   </style>
+   <body>
+      <header>
+         <span class="logo">Adriano do TI</span>
+         <nav>
+            <a class="nav-links" href="index.html " target="_self">Home</a>
+            <a class="nav-links" href="#who-i-am" target="_self">Quem sou eu</a>
+            <a class="nav-links" href="#about-me" target="_self">Sobre mim</a>
+            <a class="nav-links" href="servicos.html" target="_self">Serviços</a>
+            <a class="nav-links" href="contato.html" target="_self">Contato</a>
+         </nav>
+         <div class="github-div">
+            <button class="github-a"><a href="https://github.com/adrianomelloandrade" target="_blank">GITHUB</a></button>
+         </div>
+      </header>
+      <main>
+         <section>
+         <div>
+            <h1 class="titulo-contato">Meu Contato</h1>
+            <br>
+            <p id="sub-titulo">Complete suas informações:</p>
+            <br>
+         </div>
+         <form action="">
+            <fieldset class="grupo">
+               <div class="campo">
+                  <br>
+                  <label>Nome:</label>
+                  <input type="text" name="nome" id="nome" required placeholder="Escreva seu nome">
+                  <br>
+               </div>
+               <div class="campo">
+                  <br>
+                  <label>Sobrenome:</label>
+                  <input type="text" name="sobrenome" id="sobrenome" required placeholder="Escreva seu sobrenome">
+                  <br>
+               </div>
+            </fieldset>
+            <div class="campo">
+               <br>
+              <fieldset> <label>Deseja receber emails?</label>
+               <input type="radio" name="sim-email" id="sim-email" value="Sim" required> Sim 
+               <input type="radio" name="não-email" id="não-email" value="Não" required> Não
+               <br>
+               <br>
+               <label>Email:</label>
+               <input type="email" name="email" id="email"required placeholder="Escreva seu email">
+               <br>
+              </fieldset>
+            </div>
+            <div class="campo">
+               <br>
+               <fieldset><form action="">
+               <label>Deseja receber mensagens pelo Whatsapp?  </label>
+               <input type="radio" name="sim-whatsapp" id="sim-whatsapp" value="Sim" required> Sim 
+               <input type="radio" name="não-whatsapp" id="não-whatsapp" value="Não" required> Não
+              </form>
+              </fieldset>
+               <br>
+               <br>
+               <label>Telefone:</label>
+               <input type="text" name="telefone" id="telefone" placeholder="Digite seu número">
+               </label>
+            </div>
+            <br>
+            <div class="campo">
+               <label>Conte-nos sobre a sua necessidade</label>
+               <textarea row="6" style="26em" id="necessidade" name="necessidade" placeholder="Escreva aqui"></textarea>
+            </div>
+            <button class="botao" type="submit">Enviar</button>
+         </form>
+      </main>
+      <footer class="footer-contato">
+         <span class="footer-texto">Telefone: (27) 99653-1705</span>
+         
+         <span class="footer-texto">Gmail: adrianomelloandrade0@gmail.com</span>
+       
+      </footer>
+   </body>
+</html>

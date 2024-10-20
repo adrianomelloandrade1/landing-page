@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #232222;
+	height: 100vh;
+	font-family: Lato;
+	color: yellow;
+  flex-wrap: wrap;
+}
+
+header {
+	align-items: center;
+	gap: 1rem;
+	flex-wrap: wrap;
+	padding: 0.8rem;
+	background-color: #000000;
+	min-height: 50px;
+	display: flex;
+}
+
+.header:hover {
+	align-items: center;
+	gap: 1rem;
+	flex-wrap: wrap;
+	padding: 0.8rem;
+	background-color: #000000;
+	min-height: 50px;
+	display: flex;
+}
+
+.logo {
+	text-transform: uppercase;
+	font-weight: 900;
+	font-family: Lato;
+	font-size: xx-large;
+	padding-left: 3rem;
+	color: white;
+  flex-wrap: wrap;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	background-color: #232222;
+	border-radius: 1rem;
+	gap: 6rem;
+  flex-wrap: wrap;
+}
+
+nav {
+	padding-left: 3.5rem;
+	font-size: larger;
+	display: flex;
+	gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.nav-links {
+	text-decoration: none;
+	color: #ffff;
+  flex-wrap: wrap;
+}
+
+.nav-links:hover {
+	color: yellow;
+	transition: 0.4s;
+	text-decoration: underline;
+  flex-wrap: wrap;
+}
+
+.github-a {
+	background-color: transparent;
+	border-radius: 6px;
+	cursor: pointer;
+	font-size: 0.9rem;
+	padding: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.github-div {
+	padding-left: 9rem;
+	font-size: x-large;
+  flex-wrap: ;
+}
+
+.github-a:hover {
+	background-color: #232222;
+	transition: 0.4s;
+	text-decoration: underline;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+section {
+	padding: 4rem;
+}
+
+.first-section {
+	display: flex;
+	gap: 2rem;
+	min-height: 34.375rem;
+  flex-wrap: wrap;
+}
+
+.first-section>div {
+	display: flex;
+	flex-direction: column;
+	min-width: 18.75rem;
+  flex-wrap: wrap;
+}
+
+h1 {
+	font-size: 4rem;
+	color: white;
+	letter-spacing: 0.5rem;
+  flex-wrap: wrap;
+}
+
+strong {
+	color: aqua;
+}
+
+
+
+.saber-mais:hover {
+	background-color: black;
+	border-radius: 6px;
+	cursor: pointer;
+	font-size: 0.9rem;
+	padding: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.img-profile {
+	max-width: 450px;
+	max-height:
+		padding: 1rem;
+	border-radius: 50%;
+	width: 100%;
+}
+
+.second-section {
+	background-color: darkslategrey;
+}
+
+.img-who-am-i {
+	padding-left: 100rem;
+	max-width: 30rem;
+	max-height: 35rem;
+	padding: 1rem;
+	border-radius: 50%;
+	width: 100%;
+  flex-wrap: wrap;
+}
+
+.third-section {
+	background-color: #232222;
+
+}
+
+.fourth-section {
+	background-color: darkslategrey;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  flex-wrap: wrap;
+}
+
+.lista-experiencia {
+	text-decoration: none;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 1rem;
+	gap: 3rem;
+	text-align: center;
+	list-style: none;
+  flex-wrap: wrap;
+}
+
+.titulo-contato {
+	text-align: center;
+  flex-wrap: wrap;
+
+}
+
+#sub-titulo {
+	text-align: center;
+  flex-wrap: wrap;
+}
+
+fieldset {
+	border: 0;
+
+}
+
+input,
+select,
+textarea,
+button {
+	border-radius: 5px;
+  flex-wrap: wrap;
+}
+
+.campo {
+	margin-bottom: 1em;
+  flex-wrap: wrap;
+}
+
+.campo label {
+	margin-bottom: 0.2em;
+	display: block;
+  flex-wrap: wrap;
+}
+
+fildset.grupo .campo {
+	float: left;
+	margin-right: 1em;
+  flex-wrap: wrap;
+  
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo select,
+.campo textarea {
+	padding: 0.2em;
+	border: 1px black;
+  flex-wrap: wrap;
+}
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+	background: darkslategray;
+}
+
+.botao {
+	font-size: 1.2rem;
+	border: 0;
+	margin-bottom: 1em;
+	padding: 0.2em 0.6em;
+  flex-wrap: wrap;
+}
+
+.botao:hover {
+	background: darkslategray;
+
+
+}
+
+.footer-contato {
+	background-color: darkslategray;
+	min-height: 5rem;
+	display: flex;
+	flex-direction: row;
+	column-gap: 6rem;
+	align-items: center;
+  flex-wrap: wrap;
+}
+.footer-texto {
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 16rem;
+}
+
+.first-servicos {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.tabela {
+	width: 60rem;
+	height: 15rem;
+	background-color: #494848;
+	color: aqua;
+	text-align: center;
+  flex-wrap: wrap;
+}
+
+.pg {
+	text-align: center;
+	gap: 3rem;
+	padding: 3rem;
+  flex-wrap: wrap;
+}
